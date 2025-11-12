@@ -1,5 +1,38 @@
 /* PackItSmart Landing Page Styles */
 
+/* Poppins Font */
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* Primary Colors from App */
   --primary-blue: #4A90E2;
@@ -62,7 +95,7 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
   color: var(--gray-800);
   background-color: var(--background);
@@ -98,6 +131,9 @@ nav {
 .logo {
   height: 40px;
   width: auto;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--gray-200);
+  padding: 2px;
 }
 
 .brand-name {
@@ -167,7 +203,7 @@ nav {
 .btn {
   padding: 0.875rem 2rem;
   border-radius: var(--radius-lg);
-  text-decoration: none;
+  text-decoration: none !important;
   font-weight: 600;
   transition: all 0.3s ease;
   display: inline-block;
@@ -196,6 +232,25 @@ nav {
 .btn-secondary:hover {
   background-color: white;
   color: var(--primary-blue);
+}
+
+.btn-appstore {
+  background-color: #000000;
+  color: white !important;
+  box-shadow: var(--shadow-lg);
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-appstore:hover {
+  background-color: #1a1a1a;
+  color: white !important;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-xl);
+}
+
+.btn-appstore i {
+  font-size: 1.25rem;
 }
 
 /* Container */
@@ -312,6 +367,119 @@ nav {
   text-decoration: underline;
 }
 
+/* Testimonials Section */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
+}
+
+.testimonial-card {
+  background: var(--card-bg);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.testimonial-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary-blue), var(--deep-blue));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.testimonial-avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid var(--gray-200);
+}
+
+.testimonial-info h4 {
+  margin: 0;
+  color: var(--gray-800);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.testimonial-info p {
+  margin: 0;
+  color: var(--gray-500);
+  font-size: 0.875rem;
+}
+
+.testimonial-rating {
+  color: var(--accent-orange);
+  margin-bottom: var(--spacing-sm);
+  font-size: 1rem;
+}
+
+.testimonial-text {
+  color: var(--gray-700);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+/* Perfect For Cards */
+.perfect-for-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.perfect-for-card {
+  background: var(--card-bg);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  text-align: center;
+  border: 2px solid var(--gray-200);
+}
+
+.perfect-for-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-blue);
+}
+
+.perfect-for-card i {
+  font-size: 2.5rem;
+  color: var(--primary-blue);
+  margin-bottom: var(--spacing-sm);
+}
+
+.perfect-for-card h4 {
+  color: var(--gray-800);
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0;
+}
+
 /* Contact Section */
 .contact-box {
   background: linear-gradient(135deg, var(--primary-blue), var(--deep-blue));
@@ -406,12 +574,15 @@ footer {
     flex-direction: column;
   }
 
-  .btn {
-    width: 100%;
-    text-align: center;
+  .features-grid {
+    grid-template-columns: 1fr;
   }
 
-  .features-grid {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .perfect-for-grid {
     grid-template-columns: 1fr;
   }
 
