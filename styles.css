@@ -675,3 +675,174 @@ footer {
     padding: var(--spacing-xs) var(--spacing-sm);
   }
 }
+
+/* ======================================
+   App Screenshots Section with Phone Mockup
+   ====================================== */
+
+.app-screenshots-section {
+  background: linear-gradient(180deg, var(--background) 0%, #ffffff 100%);
+  overflow: hidden;
+}
+
+.screenshots-swiper-container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Phone Mockup Frame - Modern iPhone Style */
+.phone-mockup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-lg);
+}
+
+.phone-frame {
+  position: relative;
+  width: 280px;
+  max-width: 90vw;
+  aspect-ratio: 9 / 19.5;
+  background: #1a1a1a;
+  border-radius: 42px;
+  padding: 10px;
+  box-shadow:
+    0 0 0 1px #2a2a2a,
+    0 0 0 2px #1a1a1a;
+  transition: transform 0.3s ease;
+}
+
+/* Phone Screen */
+.phone-screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  border-radius: 32px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-screen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 32px;
+}
+
+/* Swiper Customization */
+.screenshotsSwiper {
+  width: 100%;
+  padding: 40px 0 60px 0 !important;
+  overflow: hidden;
+}
+
+.screenshotsSwiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.screenshotsSwiper .swiper-slide:hover .phone-frame {
+  transform: scale(1.02);
+}
+
+/* Swiper Navigation Buttons - Hidden */
+.screenshotsSwiper .swiper-button-next,
+.screenshotsSwiper .swiper-button-prev {
+  display: none;
+}
+
+/* Swiper Pagination */
+.screenshotsSwiper .swiper-pagination {
+  bottom: 20px !important;
+}
+
+.screenshotsSwiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: var(--gray-400);
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.screenshotsSwiper .swiper-pagination-bullet-active {
+  background: var(--primary-blue);
+  opacity: 1;
+  width: 32px;
+  border-radius: 6px;
+}
+
+/* Tablet Responsive */
+@media (max-width: 1024px) {
+  .phone-frame {
+    width: 260px;
+    padding: 9px;
+  }
+
+  .screenshots-swiper-container {
+    max-width: 560px;
+  }
+
+  .screenshotsSwiper {
+    padding: 30px 0 50px 0 !important;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .phone-frame {
+    width: 240px;
+    border-radius: 38px;
+    padding: 9px;
+  }
+
+  .phone-screen {
+    border-radius: 28px;
+  }
+
+  .phone-screen img {
+    border-radius: 28px;
+  }
+
+  .screenshotsSwiper {
+    padding: 20px 0 40px 0 !important;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .phone-frame {
+    width: 220px;
+    border-radius: 34px;
+    padding: 8px;
+  }
+
+  .phone-screen {
+    border-radius: 26px;
+  }
+
+  .phone-screen img {
+    border-radius: 26px;
+  }
+
+  .screenshotsSwiper {
+    padding: 15px 0 35px 0 !important;
+  }
+
+  .screenshotsSwiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+
+  .screenshotsSwiper .swiper-pagination-bullet-active {
+    width: 26px;
+  }
+}
