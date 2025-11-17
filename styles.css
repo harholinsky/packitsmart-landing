@@ -693,47 +693,15 @@ footer {
   overflow: hidden;
 }
 
-/* Phone Mockup Frame - Modern iPhone Style */
-.phone-mockup {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: var(--spacing-lg);
-}
-
-.phone-frame {
-  position: relative;
+/* Screenshot Images */
+.screenshot-img {
   width: 280px;
   max-width: 90vw;
-  aspect-ratio: 9 / 19.5;
-  background: #1a1a1a;
-  border-radius: 42px;
-  padding: 10px;
-  box-shadow:
-    0 0 0 1px #2a2a2a,
-    0 0 0 2px #1a1a1a;
-  transition: transform 0.3s ease;
-}
-
-/* Phone Screen */
-.phone-screen {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  border-radius: 32px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.phone-screen img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: block;
-  border-radius: 32px;
 }
 
 /* Swiper Customization */
@@ -750,8 +718,9 @@ footer {
   opacity: 1;
 }
 
-.screenshotsSwiper .swiper-slide:hover .phone-frame {
+.screenshotsSwiper .swiper-slide:hover .screenshot-img {
   transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
 /* Swiper Navigation Buttons - Hidden */
@@ -782,9 +751,8 @@ footer {
 
 /* Tablet Responsive */
 @media (max-width: 1024px) {
-  .phone-frame {
+  .screenshot-img {
     width: 260px;
-    padding: 9px;
   }
 
   .screenshots-swiper-container {
@@ -798,18 +766,9 @@ footer {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
-  .phone-frame {
+  .screenshot-img {
     width: 240px;
-    border-radius: 38px;
-    padding: 9px;
-  }
-
-  .phone-screen {
-    border-radius: 28px;
-  }
-
-  .phone-screen img {
-    border-radius: 28px;
+    border-radius: 20px;
   }
 
   .screenshotsSwiper {
@@ -819,18 +778,9 @@ footer {
 
 /* Small Mobile */
 @media (max-width: 480px) {
-  .phone-frame {
+  .screenshot-img {
     width: 220px;
-    border-radius: 34px;
-    padding: 8px;
-  }
-
-  .phone-screen {
-    border-radius: 26px;
-  }
-
-  .phone-screen img {
-    border-radius: 26px;
+    border-radius: 18px;
   }
 
   .screenshotsSwiper {
