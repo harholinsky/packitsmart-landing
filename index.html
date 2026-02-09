@@ -25,14 +25,10 @@
     <meta name="twitter:description" content="Weather-based packing suggestions. Shared trips. Offline access. Free on the App Store.">
     <meta name="twitter:image" content="https://packitsmart.app/images/screenshots/01.webp">
 
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
-    <style>@font-face{font-family:Poppins;src:url("assets/fonts/Poppins-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Poppins;src:url("assets/fonts/Poppins-Medium.ttf") format("truetype");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:Poppins;src:url("assets/fonts/Poppins-SemiBold.ttf") format("truetype");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:Poppins;src:url("assets/fonts/Poppins-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap}:root{--primary-blue:#4a90e2;--primary-dark:#3875c7;--deep-blue:#13339d;--bright-blue:#3e8cff;--secondary:#ddd6fe;--accent-orange:#ffb84a;--accent-turquoise:#00d4a1;--background:#f8f9fb;--card-bg:#ffffff;--success:#4ae24a;--warning:#f59e0b;--info:#3b82f6;--gray-100:#f3f4f6;--gray-200:#e5e7eb;--gray-300:#d1d5db;--gray-400:#9ca3af;--gray-500:#6b7280;--gray-600:#4b5563;--gray-700:#374151;--gray-800:#1f2937;--gray-900:#111827;--spacing-xs:0.5rem;--spacing-sm:1rem;--spacing-md:1.5rem;--spacing-lg:2rem;--spacing-xl:3rem;--spacing-2xl:4rem;--radius-sm:0.375rem;--radius-md:0.5rem;--radius-lg:0.75rem;--radius-xl:1rem;--shadow-sm:0 1px 2px 0 rgba(0, 0, 0, 0.05);--shadow-md:0 4px 6px -1px rgba(0, 0, 0, 0.1);--shadow-lg:0 10px 15px -3px rgba(0, 0, 0, 0.1);--shadow-xl:0 20px 25px -5px rgba(0, 0, 0, 0.1)}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:Poppins,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.6;color:var(--gray-800);background-color:var(--background);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}header{background-color:var(--card-bg);box-shadow:var(--shadow-sm);position:sticky;top:0;z-index:1000}nav{max-width:1200px;margin:0 auto;padding:var(--spacing-sm) var(--spacing-md);display:flex;justify-content:space-between;align-items:center}.logo-container{display:flex;align-items:center;gap:var(--spacing-sm);text-decoration:none}.logo{height:40px;width:auto;border-radius:var(--radius-md);border:2px solid var(--gray-200);padding:2px}.brand-name{font-size:1.5rem;font-weight:700;color:var(--primary-blue);background:linear-gradient(135deg,var(--primary-blue),var(--deep-blue));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.nav-links{display:flex;gap:var(--spacing-md);list-style:none;align-items:center}.nav-links a{text-decoration:none;color:var(--gray-700);font-weight:500;transition:color .3s ease;padding:var(--spacing-xs) var(--spacing-sm);border-radius:var(--radius-md)}.nav-links a:hover{color:var(--primary-blue);background-color:var(--gray-100)}.burger-menu{display:none;background:0 0;border:none;cursor:pointer;padding:var(--spacing-xs);color:var(--gray-800);font-size:1.5rem;z-index:1001;transition:color .3s ease}.burger-menu:hover{color:var(--primary-blue)}.burger-menu i{pointer-events:none}.hero{background:linear-gradient(135deg,var(--deep-blue),var(--primary-blue));color:#fff;padding:var(--spacing-2xl) var(--spacing-md);text-align:center}.hero-content{max-width:800px;margin:0 auto}.hero h1{font-size:3rem;font-weight:800;margin-bottom:var(--spacing-md);line-height:1.2}.hero p{font-size:1.25rem;margin-bottom:var(--spacing-lg);opacity:.95}.cta-buttons{display:flex;gap:var(--spacing-md);justify-content:center;flex-wrap:wrap}.btn{padding:.875rem 2rem;border-radius:var(--radius-lg);text-decoration:none!important;font-weight:600;transition:all .3s ease;display:inline-block;border:none;cursor:pointer;font-size:1rem}.btn-primary{background-color:#fff;color:var(--primary-blue);box-shadow:var(--shadow-lg)}.btn-primary:hover{transform:translateY(-2px);box-shadow:var(--shadow-xl)}.btn-secondary{background-color:rgba(19,51,157,0.85);color:#fff;border:2px solid #fff}.btn-secondary:hover{background-color:#fff;color:var(--primary-blue)}.btn-appstore{background-color:#000;color:#fff!important;box-shadow:var(--shadow-lg);align-items:center;gap:.5rem}.btn-appstore:hover{background-color:#1a1a1a;color:#fff!important;transform:translateY(-2px);box-shadow:var(--shadow-xl)}.btn-appstore i{font-size:1.25rem}.container{max-width:1200px;margin:0 auto;padding:var(--spacing-xl) var(--spacing-md)}.section{padding:var(--spacing-xl) 0}.section-title{text-align:center;font-size:2.5rem;font-weight:700;color:var(--deep-blue);margin-bottom:var(--spacing-lg)}.section-subtitle{text-align:center;font-size:1.125rem;color:var(--gray-600);max-width:600px;margin:0 auto var(--spacing-xl)}.features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--spacing-lg);margin-top:var(--spacing-xl)}.feature-card{background:var(--card-bg);padding:var(--spacing-lg);border-radius:var(--radius-xl);box-shadow:var(--shadow-md);transition:transform .3s ease,box-shadow .3s ease}.feature-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-xl)}.feature-icon{font-size:3rem;margin-bottom:var(--spacing-md)}.feature-card h3{font-size:1.5rem;font-weight:700;color:var(--primary-blue);margin-bottom:var(--spacing-sm)}.feature-card p{color:var(--gray-600);line-height:1.7}.feature-link{display:inline-block;margin-top:var(--spacing-sm);color:#2563eb;font-weight:600;text-decoration:none;transition:color .3s ease}.feature-link:hover{color:var(--deep-blue);text-decoration:underline}.content{background:var(--card-bg);border-radius:var(--radius-xl);padding:var(--spacing-xl);box-shadow:var(--shadow-md);line-height:1.8}.content h2{color:var(--deep-blue);margin-top:var(--spacing-lg);margin-bottom:var(--spacing-md);font-size:1.75rem}.content h3{color:var(--primary-blue);margin-top:var(--spacing-md);margin-bottom:var(--spacing-sm);font-size:1.25rem}.content p{margin-bottom:var(--spacing-md);color:var(--gray-700)}.content ol,.content ul{margin-left:var(--spacing-lg);margin-bottom:var(--spacing-md);color:var(--gray-700)}.content li{margin-bottom:var(--spacing-xs)}.content a{color:#2563eb;text-decoration:none;font-weight:500}.content a:hover{text-decoration:underline}.testimonials-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:var(--spacing-lg);margin-top:var(--spacing-xl)}.testimonial-card{background:var(--card-bg);padding:var(--spacing-lg);border-radius:var(--radius-xl);box-shadow:var(--shadow-md);transition:transform .3s ease,box-shadow .3s ease}.testimonial-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-xl)}.testimonial-header{display:flex;align-items:center;gap:var(--spacing-sm);margin-bottom:var(--spacing-md)}.testimonial-avatar{width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,var(--primary-blue),var(--deep-blue));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.25rem;flex-shrink:0}.testimonial-info h3{margin:0;color:var(--gray-800);font-weight:600;font-size:1rem}.testimonial-info p{margin:0;color:var(--gray-500);font-size:.875rem}.testimonial-text{color:var(--gray-700);line-height:1.7;font-style:italic}.how-it-works-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--spacing-lg);margin-top:var(--spacing-xl)}.step-card{text-align:center;padding:var(--spacing-lg);background:var(--card-bg);border-radius:var(--radius-xl);box-shadow:var(--shadow-md);transition:transform .3s ease,box-shadow .3s ease}.step-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-xl)}.step-number{width:60px;height:60px;border-radius:50%;background:linear-gradient(135deg,var(--primary-blue),var(--deep-blue));color:#fff;font-size:1.75rem;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto var(--spacing-md)}.step-card h3{font-size:1.25rem;font-weight:700;color:var(--primary-blue);margin-bottom:var(--spacing-sm)}.step-card p{color:var(--gray-600);line-height:1.7}.faq-list{max-width:800px;margin:0 auto}.faq-item{background:var(--card-bg);border-radius:var(--radius-lg);margin-bottom:var(--spacing-sm);box-shadow:var(--shadow-sm);overflow:hidden;transition:box-shadow .3s ease}.faq-item:hover{box-shadow:var(--shadow-md)}.faq-question{width:100%;display:flex;justify-content:space-between;align-items:center;padding:var(--spacing-md) var(--spacing-lg);background:0 0;border:none;cursor:pointer;font-family:inherit;font-size:1.05rem;font-weight:600;color:var(--gray-800);text-align:left;gap:var(--spacing-sm)}.faq-question:hover{color:var(--primary-blue)}.faq-icon{font-size:.875rem;color:var(--gray-400);transition:transform .3s ease;flex-shrink:0}.faq-item.active .faq-icon{transform:rotate(180deg)}.faq-answer{max-height:0;overflow:hidden;transition:max-height .3s ease,padding .3s ease}.faq-item.active .faq-answer{max-height:500px;padding:0 var(--spacing-lg) var(--spacing-md)}.faq-answer p{color:var(--gray-600);line-height:1.7}.faq-answer a{color:var(--primary-blue);text-decoration:none;font-weight:500}.faq-answer a:hover{text-decoration:underline}.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--spacing-lg);margin-top:var(--spacing-xl);align-items:stretch}.pricing-card{background:var(--card-bg);border-radius:var(--radius-xl);padding:var(--spacing-xl);box-shadow:var(--shadow-md);text-align:center;transition:transform .3s ease,box-shadow .3s ease;border:2px solid var(--gray-200);display:flex;flex-direction:column}.pricing-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-xl)}.pricing-card-featured{border-color:var(--primary-blue);position:relative}.pricing-card-featured::before{content:"3-Day Free Trial";position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,var(--primary-blue),var(--deep-blue));color:#fff;padding:.25rem 1rem;border-radius:var(--radius-md);font-size:.8rem;font-weight:600}.pricing-card h3{font-size:1.5rem;font-weight:700;color:var(--deep-blue);margin-bottom:var(--spacing-sm)}.pricing-price{font-size:2rem;font-weight:800;color:var(--primary-blue);margin-bottom:var(--spacing-md)}.pricing-features{list-style:none;text-align:left;margin-bottom:var(--spacing-lg);flex-grow:1}.pricing-features li{padding:var(--spacing-xs) 0;color:var(--gray-600);position:relative;padding-left:1.5rem}.pricing-features li::before{content:"\f00c";font-family:"Font Awesome 6 Free";font-weight:900;position:absolute;left:0;color:var(--accent-turquoise);font-size:.85rem}.pricing-card-best-value{border-color:#e67e22;position:relative}.pricing-card-best-value::before{content:"Best Value";position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#f39c12,#e67e22);color:#fff;padding:.25rem 1rem;border-radius:var(--radius-md);font-size:.8rem;font-weight:600}.pricing-price-row{display:flex;align-items:baseline;justify-content:center;gap:.25rem;margin-top:auto}.pricing-price-row .pricing-price{margin-bottom:0}.pricing-price-suffix{font-size:1rem;color:var(--gray-500);font-weight:500}.landing-hero{background:linear-gradient(135deg,var(--deep-blue),var(--primary-blue));color:#fff;padding:var(--spacing-xl) var(--spacing-md);text-align:center}.landing-hero h1{font-size:2.5rem;font-weight:800;margin-bottom:var(--spacing-md);line-height:1.2;max-width:800px;margin-left:auto;margin-right:auto}.landing-hero p{font-size:1.125rem;opacity:.95;max-width:700px;margin:0 auto var(--spacing-lg)}.related-features{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center}.related-features a{padding:.75rem 1.5rem;background:var(--primary-blue);color:#fff;border-radius:8px;text-decoration:none;font-weight:500;transition:background .2s}.related-features a:hover{background:var(--primary-dark)}.landing-content{max-width:800px;margin:0 auto}.landing-content h2{color:var(--deep-blue);font-size:1.75rem;margin-top:var(--spacing-xl);margin-bottom:var(--spacing-md)}.landing-content h3{color:var(--primary-blue);font-size:1.25rem;margin-top:var(--spacing-lg);margin-bottom:var(--spacing-sm)}.landing-content p{color:var(--gray-700);margin-bottom:var(--spacing-md);line-height:1.8}.landing-content ul{margin-left:var(--spacing-lg);margin-bottom:var(--spacing-md);color:var(--gray-700)}.landing-content li{margin-bottom:var(--spacing-xs);line-height:1.7}.contact-box{background:linear-gradient(135deg,var(--primary-blue),var(--deep-blue));color:#fff;padding:var(--spacing-xl);border-radius:var(--radius-xl);text-align:center;box-shadow:var(--shadow-lg)}.contact-box h2{color:#fff;margin-bottom:var(--spacing-md)}.contact-email{font-size:1.5rem;color:#fff;text-decoration:none;font-weight:600;display:inline-block;padding:var(--spacing-sm) var(--spacing-lg);background-color:rgba(255,255,255,.2);border-radius:var(--radius-lg);transition:all .3s ease}.contact-email:hover{background-color:rgba(255,255,255,.3);transform:scale(1.05)}footer{background-color:var(--gray-900);color:var(--gray-300);padding:var(--spacing-xl) var(--spacing-md);margin-top:var(--spacing-2xl)}.footer-content{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--spacing-md)}.footer-links{display:flex;gap:var(--spacing-lg);list-style:none}.footer-links a{color:var(--gray-300);text-decoration:none;transition:color .3s ease}.footer-links a:hover{color:#fff}.copyright{color:var(--gray-400);font-size:.875rem}@media (max-width:768px){.hero h1{font-size:2rem}.hero p{font-size:1rem}.section-title{font-size:2rem}.burger-menu{display:block}.nav-links{position:fixed;top:0;right:-100%;height:100vh;width:70%;max-width:300px;background-color:var(--card-bg);flex-direction:column;gap:0;padding:5rem var(--spacing-lg) var(--spacing-lg);box-shadow:-2px 0 10px rgba(0,0,0,.1);transition:right .3s ease-in-out;z-index:999}.nav-links.active{right:0}.nav-links li{width:100%}.nav-links a{display:block;width:100%;padding:var(--spacing-md);border-radius:var(--radius-md);text-align:left}.cta-buttons{flex-direction:column}.features-grid{grid-template-columns:1fr}.testimonials-grid{grid-template-columns:1fr}.how-it-works-grid{grid-template-columns:1fr}.pricing-grid{grid-template-columns:1fr}.footer-content{flex-direction:column;text-align:center}.footer-links{flex-direction:column;gap:var(--spacing-sm)}.contact-email{font-size:1.125rem;padding:var(--spacing-sm) var(--spacing-md);word-break:break-all;max-width:100%}.landing-hero h1{font-size:1.75rem}.landing-hero p{font-size:1rem}}@media (max-width:480px){.hero h1{font-size:1.75rem}.logo{height:32px}.brand-name{font-size:1.25rem}.contact-email{font-size:.9rem;padding:var(--spacing-xs) var(--spacing-sm)}}.app-screenshots-section{background:linear-gradient(180deg,var(--background) 0,#fff 100%);overflow:hidden}.screenshots-swiper-container{max-width:920px;margin:0 auto;padding:var(--spacing-xl) 0;position:relative;overflow:hidden}.screenshot-img{width:280px;max-width:90vw;height:auto;border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.15);display:block}.screenshotsSwiper{width:100%;padding:40px 0 60px 0!important;overflow:hidden}.screenshotsSwiper .swiper-slide{display:flex;justify-content:center;align-items:center;opacity:1;will-change:transform}.screenshotsSwiper .swiper-slide:hover .screenshot-img{transform:scale(1.02);box-shadow:0 15px 40px rgba(0,0,0,.2);transition:transform .3s ease,box-shadow .3s ease}.screenshotsSwiper .swiper-button-next,.screenshotsSwiper .swiper-button-prev{display:none}.screenshotsSwiper .swiper-pagination{bottom:20px!important}.screenshotsSwiper .swiper-pagination-bullet{width:12px;height:12px;padding:6px;background-clip:content-box;background:var(--gray-400);opacity:.5;transition:opacity .3s ease;margin:0 4px!important}.screenshotsSwiper .swiper-pagination-bullet-active{background:var(--primary-blue);opacity:1}@media (max-width:1024px){.screenshot-img{width:260px}.screenshots-swiper-container{max-width:560px}.screenshotsSwiper{padding:30px 0 50px 0!important}}@media (max-width:768px){.screenshot-img{width:240px;border-radius:20px}.screenshotsSwiper{padding:20px 0 50px 0!important}}@media (max-width:480px){.screenshot-img{width:220px;border-radius:18px}.screenshotsSwiper{padding:15px 0 45px 0!important}.screenshotsSwiper .swiper-pagination-bullet{width:10px;height:10px}}</style>
-    <link rel="icon" type="image/png" href="assets/logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.min.css">
+    <link rel="icon" type="image/webp" href="assets/logo.webp">
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"></noscript>
 
@@ -157,7 +153,7 @@
         "@type": "Organization",
         "name": "PackItSmart",
         "url": "https://packitsmart.app",
-        "logo": "https://packitsmart.app/assets/logo.png",
+        "logo": "https://packitsmart.app/assets/logo.webp",
         "contactPoint": {
             "@type": "ContactPoint",
             "contactType": "customer support",
@@ -175,7 +171,7 @@
                 <span class="brand-name">PackItSmart</span>
             </a>
             <button class="burger-menu" id="burgerMenu" aria-label="Toggle navigation menu">
-                <i class="fa-solid fa-bars"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
             </button>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#features">Features</a></li>
@@ -195,7 +191,7 @@
                 <div class="cta-buttons">
                     <a href="https://apps.apple.com/app/pack-it-smart-packing-list/id6751776054"
                         class="btn btn-appstore" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-apple"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
                         Download Free on App Store
                     </a>
                     <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
@@ -281,59 +277,59 @@
 
                 <div class="features-grid">
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-cloud-sun" style="color: var(--accent-orange);"></i></div>
+                        <div class="feature-icon" style="color: var(--accent-orange);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M294.2 1.2c5.1 2.1 8.7 6.7 9.6 12.1l14.1 84.7 84.7 14.1c5.4 .9 10 4.5 12.1 9.6s1.5 10.9-1.6 15.4l-38.5 55c-2.2-.1-4.4-.2-6.7-.2c-23.3 0-45.1 6.2-64 17.1l0-1.1c0-53-43-96-96-96s-96 43-96 96s43 96 96 96c8.1 0 15.9-1 23.4-2.9c-36.6 18.1-63.3 53.1-69.8 94.9l-24.4 17c-4.5 3.2-10.3 3.8-15.4 1.6s-8.7-6.7-9.6-12.1L98.1 317.9 13.4 303.8c-5.4-.9-10-4.5-12.1-9.6s-1.5-10.9 1.6-15.4L52.5 208 2.9 137.2c-3.2-4.5-3.8-10.3-1.6-15.4s6.7-8.7 12.1-9.6L98.1 98.1l14.1-84.7c.9-5.4 4.5-10 9.6-12.1s10.9-1.5 15.4 1.6L208 52.5 278.8 2.9c4.5-3.2 10.3-3.8 15.4-1.6zM144 208a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM639.9 431.9c0 44.2-35.8 80-80 80l-271.9 0c-53 0-96-43-96-96c0-47.6 34.6-87 80-94.6l0-1.3c0-53 43-96 96-96c34.9 0 65.4 18.6 82.2 46.4c13-9.1 28.8-14.4 45.8-14.4c44.2 0 80 35.8 80 80c0 5.9-.6 11.7-1.9 17.2c37.4 6.7 65.8 39.4 65.8 78.7z"/></svg></div>
                         <h3>Weather-Based Suggestions</h3>
                         <p>Enter your destination and dates. PackItSmart checks the forecast and suggests exactly what to pack. Rain in Paris? Sunscreen in Bali? Covered. Powered by real-time data from <a href="https://www.weather.gov/" target="_blank" rel="noopener noreferrer">national weather services</a>.</p>
-                        <a href="weather-packing-list.html" class="feature-link">Learn more about weather-based packing</a>
+                        <a href="weather-packing-list.html" class="feature-link">Learn More</a>
                     </div>
 
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-people-group" style="color: var(--secondary);"></i></div>
+                        <div class="feature-icon" style="color: var(--secondary);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3l0-84.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5l0 21.5c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-26.8C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112l32 0c24 0 46.2 7.5 64.4 20.3zM448 416l0-21.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176l32 0c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2l0 26.8c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7l0 84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3l0-84.7c-10 11.3-16 26.1-16 42.3zm144-42.3l0 84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2l0 42.8c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-42.8c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112l32 0c61.9 0 112 50.1 112 112z"/></svg></div>
                         <h3>Shared Trips</h3>
                         <p>Add family or friends to your trip. Assign packing items and tasks to each person. Three sharing modes: full app member, browser-only access, or offline member for kids.</p>
-                        <a href="shared-packing-list.html" class="feature-link">Learn more about shared trips</a>
+                        <a href="shared-packing-list.html" class="feature-link">Learn More</a>
                     </div>
 
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-plane-up" style="color: var(--deep-blue);"></i></div>
+                        <div class="feature-icon" style="color: var(--deep-blue);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M192 93.7C192 59.5 221 0 256 0c36 0 64 59.5 64 93.7l0 66.3L497.8 278.5c8.9 5.9 14.2 15.9 14.2 26.6l0 56.7c0 10.9-10.7 18.6-21.1 15.2L320 320l0 80 57.6 43.2c4 3 6.4 7.8 6.4 12.8l0 42c0 7.8-6.3 14-14 14c-1.3 0-2.6-.2-3.9-.5L256 480 145.9 511.5c-1.3 .4-2.6 .5-3.9 .5c-7.8 0-14-6.3-14-14l0-42c0-5 2.4-9.8 6.4-12.8L192 400l0-80L21.1 377C10.7 380.4 0 372.7 0 361.8l0-56.7c0-10.7 5.3-20.7 14.2-26.6L192 160l0-66.3z"/></svg></div>
                         <h3>Offline Access</h3>
                         <p>Your packing lists work without internet. Check items off at the airport, in the hotel, or on a remote trail. Changes sync when you're back online.</p>
-                        <a href="offline-packing-list.html" class="feature-link">Learn more about offline access</a>
+                        <a href="offline-packing-list.html" class="feature-link">Learn More</a>
                     </div>
 
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-suitcase-rolling" style="color: var(--primary-blue);"></i></div>
+                        <div class="feature-icon" style="color: var(--primary-blue);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M144 56c0-4.4 3.6-8 8-8l80 0c4.4 0 8 3.6 8 8l0 72-96 0 0-72zm176 72l-32 0 0-72c0-30.9-25.1-56-56-56L152 0C121.1 0 96 25.1 96 56l0 72-32 0c-35.3 0-64 28.7-64 64L0 416c0 35.3 28.7 64 64 64c0 17.7 14.3 32 32 32s32-14.3 32-32l128 0c0 17.7 14.3 32 32 32s32-14.3 32-32c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64zM112 224l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 128l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg></div>
                         <h3>Smart Checklist Generation</h3>
                         <p>Don't start from a blank list. The app generates a categorized packing checklist you can customize — or start from scratch if you prefer.</p>
                     </div>
 
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-bell" style="color: var(--warning);"></i></div>
+                        <div class="feature-icon" style="color: var(--warning);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416l384 0c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8l0-18.8c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/></svg></div>
                         <h3>Todo List & Reminders</h3>
                         <p>Beyond packing: add todo tasks, set reminders, attach notes and photos. Everything you need for trip prep in one place.</p>
                     </div>
 
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-copy" style="color: var(--accent-turquoise);"></i></div>
+                        <div class="feature-icon" style="color: var(--accent-turquoise);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M208 0L332.1 0c12.7 0 24.9 5.1 33.9 14.1l67.9 67.9c9 9 14.1 21.2 14.1 33.9L448 336c0 26.5-21.5 48-48 48l-192 0c-26.5 0-48-21.5-48-48l0-288c0-26.5 21.5-48 48-48zM48 128l80 0 0 64-64 0 0 256 192 0 0-32 64 0 0 48c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 176c0-26.5 21.5-48 48-48z"/></svg></div>
                         <h3>Templates & Reuse</h3>
                         <p>Save your favorite packing lists as templates. Duplicate a business trip list in one tap. Build your own library of go-to setups.</p>
-                        <a href="packing-list-templates.html" class="feature-link">Learn more about templates</a>
+                        <a href="packing-list-templates.html" class="feature-link">Learn More</a>
                     </div>
 
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-cloud" style="color: var(--bright-blue);"></i></div>
+                        <div class="feature-icon" style="color: var(--bright-blue);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M0 336c0 79.5 64.5 144 144 144l368 0c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"/></svg></div>
                         <h3>Cloud Sync</h3>
                         <p>Access your lists across all your devices. Every change syncs automatically. Available with a PackItSmart Cloud subscription.</p>
                     </div>
 
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-layer-group" style="color: var(--success);"></i></div>
+                        <div class="feature-icon" style="color: var(--success);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z"/></svg></div>
                         <h3>Organized by Category</h3>
                         <p>Items are grouped by clothing, toiletries, electronics, documents, and more. Track your packing progress with visual indicators.</p>
                     </div>
 
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-paperclip" style="color: var(--secondary);"></i></div>
+                        <div class="feature-icon" style="color: var(--secondary);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M364.2 83.8c-24.4-24.4-64-24.4-88.4 0l-184 184c-42.1 42.1-42.1 110.3 0 152.4s110.3 42.1 152.4 0l152-152c10.9-10.9 28.7-10.9 39.6 0s10.9 28.7 0 39.6l-152 152c-64 64-167.6 64-231.6 0s-64-167.6 0-231.6l184-184c46.3-46.3 121.3-46.3 167.6 0s46.3 121.3 0 167.6l-176 176c-28.6 28.6-75 28.6-103.6 0s-28.6-75 0-103.6l144-144c10.9-10.9 28.7-10.9 39.6 0s10.9 28.7 0 39.6l-144 144c-6.7 6.7-6.7 17.7 0 24.4s17.7 6.7 24.4 0l176-176c24.4-24.4 24.4-64 0-88.4z"/></svg></div>
                         <h3>Notes & Attachments</h3>
                         <p>Add photos, files, and notes to any packing item. Keep boarding passes, hotel confirmations, and travel documents right where you need them.</p>
                     </div>
@@ -358,7 +354,7 @@
                         </ul>
                         <a href="https://apps.apple.com/app/pack-it-smart-packing-list/id6751776054"
                             class="btn btn-appstore" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-apple"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
                             Download Free
                         </a>
                     </div>
@@ -430,7 +426,7 @@
                 <div class="testimonials-grid">
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
+                            <div class="testimonial-avatar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg></div>
                             <div class="testimonial-info">
                                 <h3>Frequent Traveler</h3>
                             </div>
@@ -440,7 +436,7 @@
 
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
+                            <div class="testimonial-avatar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg></div>
                             <div class="testimonial-info">
                                 <h3>Business Traveler</h3>
                             </div>
@@ -450,7 +446,7 @@
 
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
+                            <div class="testimonial-avatar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg></div>
                             <div class="testimonial-info">
                                 <h3>Family Trip Planner</h3>
                             </div>
@@ -460,7 +456,7 @@
 
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
+                            <div class="testimonial-avatar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg></div>
                             <div class="testimonial-info">
                                 <h3>Backpacker</h3>
                             </div>
@@ -470,7 +466,7 @@
 
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
+                            <div class="testimonial-avatar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg></div>
                             <div class="testimonial-info">
                                 <h3>Traveler</h3>
                             </div>
@@ -480,7 +476,7 @@
 
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
+                            <div class="testimonial-avatar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg></div>
                             <div class="testimonial-info">
                                 <h3>Frequent Flyer</h3>
                             </div>
@@ -498,7 +494,7 @@
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">
                             <span>Is PackItSmart free?</span>
-                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="faq-icon"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         </button>
                         <div class="faq-answer">
                             <p>PackItSmart is free to download and use. Core features like packing list creation, weather-based suggestions, and offline access are included. A one-time in-app purchase unlocks additional features. A Cloud subscription adds backup, sync across devices, and shared trips.</p>
@@ -508,7 +504,7 @@
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">
                             <span>How does the weather-based packing list work?</span>
-                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="faq-icon"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         </button>
                         <div class="faq-answer">
                             <p>When you create a trip, enter your destination and travel dates. PackItSmart checks the weather forecast for that location and time period, then suggests appropriate items. Expecting rain? It adds a rain jacket. Hot and sunny? Sunscreen and light clothing. For air travel, also check the <a href="https://www.tsa.gov/travel/security-screening/whatcanibring/all" target="_blank" rel="noopener noreferrer">TSA packing guidelines</a> to make sure your items are carry-on friendly.</p>
@@ -518,7 +514,7 @@
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">
                             <span>Can I share my packing list with someone who doesn't have the app?</span>
-                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="faq-icon"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         </button>
                         <div class="faq-answer">
                             <p>Yes. When you share a trip, you can add a "web member." They receive a link and can view and check off their assigned items in any browser — no app install required.</p>
@@ -528,7 +524,7 @@
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">
                             <span>Does PackItSmart work offline?</span>
-                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="faq-icon"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         </button>
                         <div class="faq-answer">
                             <p>Yes. All your packing lists are stored locally on your device. You can create, edit, and check off items without an internet connection. Changes sync to the cloud when you reconnect.</p>
@@ -538,7 +534,7 @@
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">
                             <span>What devices does PackItSmart support?</span>
-                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="faq-icon"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         </button>
                         <div class="faq-answer">
                             <p>PackItSmart is available for iPhone (iOS 14.0+) and iPad. An Android version is coming soon.</p>
@@ -548,7 +544,7 @@
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">
                             <span>Can I create a packing list for someone else, like a child?</span>
-                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="faq-icon"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         </button>
                         <div class="faq-answer">
                             <p>Yes. Shared trips support "offline members" — perfect for children or anyone without their own device. You assign items to them and check things off on their behalf.</p>
@@ -558,7 +554,7 @@
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">
                             <span>How is sharing different from other packing apps?</span>
-                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="faq-icon"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         </button>
                         <div class="faq-answer">
                             <p>PackItSmart offers three sharing modes: full app members (with permission controls), web members (browser-only access via link), and offline members (for people without a device). You can assign specific items and tasks to each person.</p>
@@ -568,7 +564,7 @@
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">
                             <span>Can I reuse a packing list for future trips?</span>
-                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="faq-icon"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         </button>
                         <div class="faq-answer">
                             <p>Yes. Save any packing list as a template. Duplicate it for your next trip and adjust as needed. Great for recurring business trips or regular vacation types.</p>
@@ -578,7 +574,7 @@
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">
                             <span>Is my data private and secure?</span>
-                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="faq-icon"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         </button>
                         <div class="faq-answer">
                             <p>We take data security seriously. We don't sell or share your personal information. You can delete your account and all data at any time. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
@@ -588,7 +584,7 @@
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">
                             <span>How do I get help or report a bug?</span>
-                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="faq-icon"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         </button>
                         <div class="faq-answer">
                             <p>Email us at <a href="mailto:support@graydev.xyz">support@graydev.xyz</a>. Include your device model, OS version, and app version for the fastest resolution. You can also visit our <a href="support.html">Support page</a>.</p>
@@ -608,11 +604,11 @@
                     <div class="cta-buttons">
                         <a href="https://apps.apple.com/app/pack-it-smart-packing-list/id6751776054"
                             class="btn btn-appstore" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-apple"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
                             Download Free on App Store
                         </a>
                         <a href="https://play.google.com/store" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-google-play"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
                             Android — Coming Soon
                         </a>
                     </div>
@@ -699,19 +695,16 @@
         // Burger menu toggle
         const burgerMenu = document.getElementById('burgerMenu');
         const navLinks = document.getElementById('navLinks');
+        const barsSVG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>';
+        const xmarkSVG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>';
+
+        function setBurgerIcon(isOpen) {
+            burgerMenu.innerHTML = isOpen ? xmarkSVG : barsSVG;
+        }
 
         burgerMenu.addEventListener('click', () => {
             navLinks.classList.toggle('active');
-
-            // Change icon between bars and X
-            const icon = burgerMenu.querySelector('i');
-            if (navLinks.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-xmark');
-            } else {
-                icon.classList.remove('fa-xmark');
-                icon.classList.add('fa-bars');
-            }
+            setBurgerIcon(navLinks.classList.contains('active'));
         });
 
         // Close menu when clicking on a link
@@ -719,9 +712,7 @@
         navLinksItems.forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
-                const icon = burgerMenu.querySelector('i');
-                icon.classList.remove('fa-xmark');
-                icon.classList.add('fa-bars');
+                setBurgerIcon(false);
             });
         });
 
@@ -729,9 +720,7 @@
         document.addEventListener('click', (e) => {
             if (!navLinks.contains(e.target) && !burgerMenu.contains(e.target)) {
                 navLinks.classList.remove('active');
-                const icon = burgerMenu.querySelector('i');
-                icon.classList.remove('fa-xmark');
-                icon.classList.add('fa-bars');
+                setBurgerIcon(false);
             }
         });
     </script>
