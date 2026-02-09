@@ -733,6 +733,28 @@ nav {
   margin: 0 auto var(--spacing-lg);
 }
 
+/* Related Features Cross-Links */
+.related-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.related-features a {
+    padding: 0.75rem 1.5rem;
+    background: var(--primary-blue);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.related-features a:hover {
+    background: var(--primary-dark);
+}
+
 /* Landing Page Content */
 .landing-content {
   max-width: 800px;

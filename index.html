@@ -25,6 +25,9 @@
     <meta name="twitter:description" content="Weather-based packing suggestions. Shared trips. Offline access. Free on the App Store.">
     <meta name="twitter:image" content="https://packitsmart.app/images/screenshots/01.png">
 
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="assets/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -143,6 +146,22 @@
           }
         }
       ]
+    }
+    </script>
+
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PackItSmart",
+        "url": "https://packitsmart.app",
+        "logo": "https://packitsmart.app/assets/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "url": "https://packitsmart.app/support.html"
+        }
     }
     </script>
 </head>
