@@ -4,17 +4,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="PackItSmart - Your intelligent travel packing companion. Never forget essentials again with smart packing lists and trip management.">
-    <meta name="keywords" content="packing list, travel app, trip planner, packing checklist, travel organizer">
+    <title>PackItSmart — Smart Packing List App | Weather-Based Packing Checklists</title>
+    <meta name="description" content="PackItSmart is a free packing list app for iPhone and Android. Get weather-based packing suggestions, share trips with family, and access your checklist offline. Download now.">
+    <meta name="robots" content="index, follow">
     <meta name="author" content="PackItSmart">
-    <title>PackItSmart - Smart Travel Packing Made Easy</title>
+    <meta name="apple-itunes-app" content="app-id=6751776054">
+    <link rel="canonical" href="https://packitsmart.app/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="PackItSmart — Smart Packing List App for iPhone & Android">
+    <meta property="og:description" content="Get weather-based packing suggestions, share trips with family, and never forget essentials. Free on the App Store.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://packitsmart.app/">
+    <meta property="og:image" content="https://packitsmart.app/images/screenshots/01.png">
+    <meta property="og:site_name" content="PackItSmart">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PackItSmart — Smart Packing List App for iPhone & Android">
+    <meta name="twitter:description" content="Weather-based packing suggestions. Shared trips. Offline access. Free on the App Store.">
+    <meta name="twitter:image" content="https://packitsmart.app/images/screenshots/01.png">
+
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="assets/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Structured Data: SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "PackItSmart",
+      "operatingSystem": "iOS, Android",
+      "applicationCategory": "TravelApplication",
+      "description": "Smart packing list app for iPhone and Android with weather-based suggestions, shared trips, and offline access.",
+      "url": "https://packitsmart.app",
+      "downloadUrl": "https://apps.apple.com/app/pack-it-smart-packing-list/id6751776054",
+      "author": {
+        "@type": "Organization",
+        "name": "PackItSmart"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is PackItSmart free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PackItSmart is free to download and use. Core features like packing list creation, weather-based suggestions, and offline access are included. A one-time in-app purchase unlocks additional features. A Cloud subscription adds backup, sync across devices, and shared trips."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the weather-based packing list work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When you create a trip, enter your destination and travel dates. PackItSmart checks the weather forecast for that location and time period, then suggests appropriate items. Expecting rain? It adds a rain jacket. Hot and sunny? Sunscreen and light clothing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I share my packing list with someone who doesn't have the app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. When you share a trip, you can add a \"web member.\" They receive a link and can view and check off their assigned items in any browser — no app install required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does PackItSmart work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. All your packing lists are stored locally on your device. You can create, edit, and check off items without an internet connection. Changes sync to the cloud when you reconnect."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What devices does PackItSmart support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PackItSmart is available for iPhone (iOS 14.0+) and iPad. An Android version is coming soon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I create a packing list for someone else, like a child?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Shared trips support \"offline members\" — perfect for children or anyone without their own device. You assign items to them and check things off on their behalf."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is sharing different from other packing apps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PackItSmart offers three sharing modes: full app members (with permission controls), web members (browser-only access via link), and offline members (for people without a device). You can assign specific items and tasks to each person."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I reuse a packing list for future trips?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Save any packing list as a template. Duplicate it for your next trip and adjust as needed. Great for recurring business trips or regular vacation types."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my data private and secure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We take data security seriously. We don't sell or share your personal information. You can delete your account and all data at any time. See our Privacy Policy for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get help or report a bug?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Email us at support@graydev.xyz. Include your device model, OS version, and app version for the fastest resolution. You can also visit our Support page."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>
@@ -30,6 +160,7 @@
             <ul class="nav-links" id="navLinks">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#faq">FAQ</a></li>
                 <li><a href="support.html">Support</a></li>
                 <li><a href="privacy.html">Privacy</a></li>
             </ul>
@@ -39,15 +170,15 @@
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1>Pack Smart, Travel Confident</h1>
-                <p>Your intelligent travel companion that ensures you never forget the essentials. Create, manage, and
-                    share packing lists effortlessly.</p>
+                <h1>The Packing List App That Checks the Weather for You</h1>
+                <p>Tell PackItSmart where and when you're going. It builds your packing checklist based on the forecast, your activities, and trip length. Share the list with your travel group — no app install required.</p>
                 <div class="cta-buttons">
                     <a href="https://apps.apple.com/app/pack-it-smart-packing-list/id6751776054"
                         class="btn btn-appstore" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-apple"></i>
-                        Download on App Store
+                        Download Free on App Store
                     </a>
+                    <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
                 </div>
             </div>
         </section>
@@ -60,52 +191,64 @@
                 <div class="screenshots-swiper-container">
                     <div class="swiper screenshotsSwiper">
                         <div class="swiper-wrapper">
-                            <!-- Screenshot 1 -->
                             <div class="swiper-slide">
                                 <img src="images/screenshots/01.png" alt="PackItSmart App Screenshot 1" loading="lazy" class="screenshot-img">
                             </div>
-                            <!-- Screenshot 2 -->
                             <div class="swiper-slide">
                                 <img src="images/screenshots/02.png" alt="PackItSmart App Screenshot 2" loading="lazy" class="screenshot-img">
                             </div>
-                            <!-- Screenshot 3 -->
                             <div class="swiper-slide">
                                 <img src="images/screenshots/03.png" alt="PackItSmart App Screenshot 3" loading="lazy" class="screenshot-img">
                             </div>
-                            <!-- Screenshot 4 -->
                             <div class="swiper-slide">
                                 <img src="images/screenshots/04.png" alt="PackItSmart App Screenshot 4" loading="lazy" class="screenshot-img">
                             </div>
-                            <!-- Screenshot 5 -->
                             <div class="swiper-slide">
                                 <img src="images/screenshots/05.png" alt="PackItSmart App Screenshot 5" loading="lazy" class="screenshot-img">
                             </div>
-                            <!-- Screenshot 6 -->
                             <div class="swiper-slide">
                                 <img src="images/screenshots/06.png" alt="PackItSmart App Screenshot 6" loading="lazy" class="screenshot-img">
                             </div>
-                            <!-- Screenshot 7 -->
                             <div class="swiper-slide">
                                 <img src="images/screenshots/07.png" alt="PackItSmart App Screenshot 7" loading="lazy" class="screenshot-img">
                             </div>
-                            <!-- Screenshot 8 -->
                             <div class="swiper-slide">
                                 <img src="images/screenshots/08.png" alt="PackItSmart App Screenshot 8" loading="lazy" class="screenshot-img">
                             </div>
-                            <!-- Screenshot 9 -->
                             <div class="swiper-slide">
                                 <img src="images/screenshots/09.png" alt="PackItSmart App Screenshot 9" loading="lazy" class="screenshot-img">
                             </div>
-                            <!-- Screenshot 10 -->
                             <div class="swiper-slide">
                                 <img src="images/screenshots/10.png" alt="PackItSmart App Screenshot 10" loading="lazy" class="screenshot-img">
                             </div>
                         </div>
-                        <!-- Navigation -->
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
-                        <!-- Pagination -->
                         <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="section" style="background-color: #fff;">
+            <div class="container">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">From trip to packed bag in three steps</p>
+                <div class="how-it-works-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Enter Your Trip Details</h3>
+                        <p>Add your destination, travel dates, and planned activities. PackItSmart fetches the weather forecast automatically.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Get a Smart Packing List</h3>
+                        <p>The app generates a personalized checklist based on weather, trip length, and activities. Edit it, add your own items, or use it as-is.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Share and Pack Together</h3>
+                        <p>Invite your travel group. Assign items to each person. They can check off their list in the app or through a browser link — no install needed.</p>
                     </div>
                 </div>
             </div>
@@ -113,56 +256,121 @@
 
         <section id="features" class="section">
             <div class="container">
-                <h2 class="section-title">Why Choose PackItSmart?</h2>
-                <p class="section-subtitle">Everything you need to organize your trips and pack like a pro</p>
+                <h2 class="section-title">Features</h2>
+                <p class="section-subtitle">Everything you need to pack smart for any trip</p>
 
                 <div class="features-grid">
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-suitcase-rolling"
-                                style="color: var(--primary-blue);"></i></div>
-                        <h3>Smart Packing Lists</h3>
-                        <p>Create customized packing lists tailored to your destination, trip duration, and activities.
-                            Our intelligent suggestions ensure you never forget essentials.</p>
+                        <div class="feature-icon"><i class="fa-solid fa-cloud-sun" style="color: var(--accent-orange);"></i></div>
+                        <h3>Weather-Based Suggestions</h3>
+                        <p>Enter your destination and dates. PackItSmart checks the forecast and suggests exactly what to pack. Rain in Paris? Sunscreen in Bali? Covered.</p>
+                        <a href="weather-packing-list.html" class="feature-link">Learn more</a>
                     </div>
 
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-circle-check"
-                                style="color: var(--success);"></i></div>
-                        <h3>Easy Organization</h3>
-                        <p>Check off items as you pack, organize by category, and track your packing progress. Stay
-                            organized from planning to departure.</p>
+                        <div class="feature-icon"><i class="fa-solid fa-people-group" style="color: var(--secondary);"></i></div>
+                        <h3>Shared Trips</h3>
+                        <p>Add family or friends to your trip. Assign packing items and tasks to each person. Three sharing modes: full app member, browser-only access, or offline member for kids.</p>
+                        <a href="shared-packing-list.html" class="feature-link">Learn more</a>
                     </div>
 
                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-earth-americas"
-                                style="color: var(--accent-turquoise);"></i></div>
-                        <h3>Multi-Trip Management</h3>
-                        <p>Manage multiple trips simultaneously. Save and reuse your favorite packing lists for
-                            different trip types and destinations.</p>
-                    </div>
-
-                    <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-cloud" style="color: var(--bright-blue);"></i>
-                        </div>
-                        <h3>Cloud Sync</h3>
-                        <p>Access your packing lists across all your devices with seamless cloud synchronization. Your
-                            data is always up-to-date and secure.</p>
-                    </div>
-
-                    <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-share-nodes"
-                                style="color: var(--secondary);"></i></div>
-                        <h3>Share & Collaborate</h3>
-                        <p>Traveling with others? Share your packing lists and collaborate on trip planning with family
-                            and friends.</p>
-                    </div>
-
-                    <div class="feature-card">
-                        <div class="feature-icon"><i class="fa-solid fa-plane-up" style="color: var(--deep-blue);"></i>
-                        </div>
+                        <div class="feature-icon"><i class="fa-solid fa-plane-up" style="color: var(--deep-blue);"></i></div>
                         <h3>Offline Access</h3>
-                        <p>Access your packing lists anytime, anywhere, even without internet connection. Perfect for
-                            when you're on the go.</p>
+                        <p>Your packing lists work without internet. Check items off at the airport, in the hotel, or on a remote trail. Changes sync when you're back online.</p>
+                        <a href="offline-packing-list.html" class="feature-link">Learn more</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-suitcase-rolling" style="color: var(--primary-blue);"></i></div>
+                        <h3>Smart Checklist Generation</h3>
+                        <p>Don't start from a blank list. The app generates a categorized packing checklist you can customize — or start from scratch if you prefer.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-bell" style="color: var(--warning);"></i></div>
+                        <h3>Todo List & Reminders</h3>
+                        <p>Beyond packing: add todo tasks, set reminders, attach notes and photos. Everything you need for trip prep in one place.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-copy" style="color: var(--accent-turquoise);"></i></div>
+                        <h3>Templates & Reuse</h3>
+                        <p>Save your favorite packing lists as templates. Duplicate a business trip list in one tap. Build your own library of go-to setups.</p>
+                        <a href="packing-list-templates.html" class="feature-link">Learn more</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-cloud" style="color: var(--bright-blue);"></i></div>
+                        <h3>Cloud Sync</h3>
+                        <p>Access your lists across all your devices. Every change syncs automatically. Available with a PackItSmart Cloud subscription.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-layer-group" style="color: var(--success);"></i></div>
+                        <h3>Organized by Category</h3>
+                        <p>Items are grouped by clothing, toiletries, electronics, documents, and more. Track your packing progress with visual indicators.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-paperclip" style="color: var(--secondary);"></i></div>
+                        <h3>Notes & Attachments</h3>
+                        <p>Add photos, files, and notes to any packing item. Keep boarding passes, hotel confirmations, and travel documents right where you need them.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="section" style="background-color: #fff;">
+            <div class="container">
+                <h2 class="section-title">Simple Pricing</h2>
+                <p class="section-subtitle">Start free. Upgrade when you need more.</p>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Free</h3>
+                        <p class="pricing-price">$0</p>
+                        <ul class="pricing-features">
+                            <li>Create packing lists</li>
+                            <li>Weather-based suggestions</li>
+                            <li>Offline access</li>
+                            <li>Todo list & reminders</li>
+                            <li>Category organization</li>
+                        </ul>
+                        <a href="https://apps.apple.com/app/pack-it-smart-packing-list/id6751776054"
+                            class="btn btn-appstore" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-apple"></i>
+                            Download Free
+                        </a>
+                    </div>
+                    <div class="pricing-card pricing-card-best-value">
+                        <h3>Plus</h3>
+                        <ul class="pricing-features">
+                            <li>No Ads</li>
+                            <li>Unlimited trips</li>
+                            <li>Reuse packing lists</li>
+                            <li>Weather suggestions</li>
+                            <li>Create trip members</li>
+                            <li>Multi-destination trips</li>
+                            <li>Item deadlines & reminders</li>
+                            <li>Save images & files to notes</li>
+                        </ul>
+                        <div class="pricing-price-row">
+                            <span class="pricing-price">$4.99</span>
+                            <span class="pricing-price-suffix">one-time</span>
+                        </div>
+                    </div>
+                    <div class="pricing-card pricing-card-featured">
+                        <h3>Cloud</h3>
+                        <ul class="pricing-features">
+                            <li>Everything in Plus</li>
+                            <li>Sync all your devices & backup data</li>
+                            <li>Invite others to your trips</li>
+                            <li>Share items with a web link</li>
+                        </ul>
+                        <div class="pricing-price-row">
+                            <span class="pricing-price">$1.99</span>
+                            <span class="pricing-price-suffix">/ month</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -173,56 +381,24 @@
                 <h2 class="section-title">About PackItSmart</h2>
                 <div class="content">
                     <p>
-                        PackItSmart is your ultimate travel companion, designed to take the stress out of packing and
-                        trip preparation. Whether you're planning a weekend getaway, a business trip, or an extended
-                        vacation, our intuitive app helps you stay organized and ensures you never forget important
-                        items.
+                        PackItSmart generates packing lists based on real weather data for your destination.
+                        You tell it where and when — it figures out what you need.
                     </p>
                     <p>
-                        Born from the frustration of last-minute packing chaos and forgotten essentials, PackItSmart
-                        combines smart technology with practical travel wisdom. Our mission is to make travel
-                        preparation effortless, so you can focus on the excitement of your journey ahead.
+                        Built for people who travel regularly and hate the "did I forget something?" feeling.
+                        The app handles the thinking so you can focus on the trip.
+                    </p>
+                    <p>
+                        Available on iPhone and iPad. Android coming soon.
                     </p>
                     <h3>What Makes Us Different</h3>
                     <ul>
-                        <li><strong>Intelligent Suggestions:</strong> Get personalized packing recommendations based on
-                            your destination, weather, trip duration, and planned activities.</li>
-                        <li><strong>Category-Based Organization:</strong> Group items by clothing, toiletries,
-                            electronics, documents, and more for efficient packing.</li>
-                        <li><strong>Customizable Templates:</strong> Start with our pre-made templates and customize
-                            them to match your unique needs.</li>
-                        <li><strong>Progress Tracking:</strong> Visual indicators show you exactly what's packed and
-                            what's still pending.</li>
-                        <li><strong>Privacy First:</strong> Your data is encrypted and secure. We respect your privacy
-                            and never share your personal information.</li>
+                        <li><strong>Weather-Aware:</strong> Packing recommendations adapt to the actual forecast for your destination and travel dates.</li>
+                        <li><strong>Three Sharing Modes:</strong> Full app members, browser-only web access, and offline members for kids or anyone without a device.</li>
+                        <li><strong>Customizable Templates:</strong> Start with generated lists and customize them, or build your own from scratch. Save and reuse.</li>
+                        <li><strong>More Than Packing:</strong> Todo lists, reminders, notes, and file attachments — everything for trip prep.</li>
+                        <li><strong>Privacy First:</strong> We don't sell or share your personal information. You can delete your account and data at any time.</li>
                     </ul>
-                    <h3>Perfect For</h3>
-                    <div class="perfect-for-grid">
-                        <div class="perfect-for-card">
-                            <i class="fa-solid fa-plane"></i>
-                            <h4>Frequent travelers and digital nomads</h4>
-                        </div>
-                        <div class="perfect-for-card">
-                            <i class="fa-solid fa-people-group"></i>
-                            <h4>Families planning vacations together</h4>
-                        </div>
-                        <div class="perfect-for-card">
-                            <i class="fa-solid fa-briefcase"></i>
-                            <h4>Business professionals with regular travel schedules</h4>
-                        </div>
-                        <div class="perfect-for-card">
-                            <i class="fa-solid fa-mountain-sun"></i>
-                            <h4>Adventure seekers and backpackers</h4>
-                        </div>
-                        <div class="perfect-for-card">
-                            <i class="fa-solid fa-umbrella-beach"></i>
-                            <h4>Anyone who wants stress-free travel preparation</h4>
-                        </div>
-                        <div class="perfect-for-card">
-                            <i class="fa-solid fa-person-hiking"></i>
-                            <h4>Students and gap year travelers</h4>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -230,133 +406,173 @@
         <section class="section" style="background-color: #fff;">
             <div class="container">
                 <h2 class="section-title">What Our Users Say</h2>
-                <p class="section-subtitle">Join thousands of happy travelers who love PackItSmart</p>
 
                 <div class="testimonials-grid">
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <img src="assets/testimonials/sarah-mitchell.jpg" alt="Sarah Mitchell"
-                                class="testimonial-avatar-img">
+                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
                             <div class="testimonial-info">
-                                <h4>Sarah Mitchell</h4>
-                                <p>Digital Nomad, Berlin</p>
+                                <h4>Frequent Traveler</h4>
                             </div>
                         </div>
-                        <div class="testimonial-rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="testimonial-text">"As someone who travels constantly for work, PackItSmart has been a
-                            game-changer. I never forget anything anymore, and packing takes half the time. The cloud
-                            sync feature is absolutely perfect!"</p>
+                        <p class="testimonial-text">"I travel constantly for work. PackItSmart has cut my packing time in half. The cloud sync keeps everything in order across my devices."</p>
                     </div>
 
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <img src="assets/testimonials/james-chen.jpg" alt="James Chen"
-                                class="testimonial-avatar-img">
+                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
                             <div class="testimonial-info">
-                                <h4>James Chen</h4>
-                                <p>Business Executive, Singapore</p>
+                                <h4>Business Traveler</h4>
                             </div>
                         </div>
-                        <div class="testimonial-rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="testimonial-text">"I travel weekly for business, and this app keeps me organized. The
-                            template feature saves me so much time - I just duplicate my business trip list and I'm
-                            ready to go. Highly recommend!"</p>
+                        <p class="testimonial-text">"The template feature saves me so much time. I duplicate my business trip list and I'm ready to go."</p>
                     </div>
 
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <img src="assets/testimonials/emily-rodriguez.jpg" alt="Emily Rodriguez"
-                                class="testimonial-avatar-img">
+                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
                             <div class="testimonial-info">
-                                <h4>Emily Rodriguez</h4>
-                                <p>Mom of Three, Barcelona</p>
+                                <h4>Family Trip Planner</h4>
                             </div>
                         </div>
-                        <div class="testimonial-rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="testimonial-text">"Planning family vacations with three kids used to be chaotic. Now
-                            we share our packing list and everyone knows what they need to bring. No more last-minute
-                            panic! This app is a lifesaver."</p>
+                        <p class="testimonial-text">"We share our packing list and everyone knows what they need to bring. No more last-minute panic packing with kids."</p>
                     </div>
 
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <img src="assets/testimonials/marcus-lee.jpg" alt="Marcus Lee"
-                                class="testimonial-avatar-img">
+                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
                             <div class="testimonial-info">
-                                <h4>Marcus Lee</h4>
-                                <p>Backpacker, Sydney</p>
+                                <h4>Backpacker</h4>
                             </div>
                         </div>
-                        <div class="testimonial-rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="testimonial-text">"The offline access is clutch when backpacking through remote areas.
-                            I can check my lists even without internet. The categorization helps me pack light and
-                            smart. Best travel app I've used!"</p>
+                        <p class="testimonial-text">"The offline access is clutch when traveling through remote areas. I can check my lists even without internet. The categorization helps me pack light."</p>
                     </div>
 
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <img src="assets/testimonials/anna-petrova.jpg" alt="Anna Petrova"
-                                class="testimonial-avatar-img">
+                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
                             <div class="testimonial-info">
-                                <h4>Anna Petrova</h4>
-                                <p>Travel Blogger, Kyiv</p>
+                                <h4>Traveler</h4>
                             </div>
                         </div>
-                        <div class="testimonial-rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="testimonial-text">"I've tried many packing apps, but PackItSmart is by far the best.
-                            The interface is beautiful, it's intuitive, and the smart suggestions actually work. My
-                            followers love it too!"</p>
+                        <p class="testimonial-text">"The interface is intuitive and the weather-based suggestions actually work. I don't have to guess what to pack anymore."</p>
                     </div>
 
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <img src="assets/testimonials/david-williams.jpg" alt="David Williams"
-                                class="testimonial-avatar-img">
+                            <div class="testimonial-avatar"><i class="fa-solid fa-user"></i></div>
                             <div class="testimonial-info">
-                                <h4>David Williams</h4>
-                                <p>Photographer, London</p>
+                                <h4>Frequent Flyer</h4>
                             </div>
                         </div>
-                        <div class="testimonial-rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+                        <p class="testimonial-text">"I have tons of gear to organize for each trip. PackItSmart lets me create detailed equipment lists and never leave important items behind."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Is PackItSmart free?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>PackItSmart is free to download and use. Core features like packing list creation, weather-based suggestions, and offline access are included. A one-time in-app purchase unlocks additional features. A Cloud subscription adds backup, sync across devices, and shared trips.</p>
                         </div>
-                        <p class="testimonial-text">"As a travel photographer with tons of gear, staying organized is
-                            crucial. PackItSmart lets me create detailed equipment lists and never leave important gear
-                            behind. Absolutely essential!"</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>How does the weather-based packing list work?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>When you create a trip, enter your destination and travel dates. PackItSmart checks the weather forecast for that location and time period, then suggests appropriate items. Expecting rain? It adds a rain jacket. Hot and sunny? Sunscreen and light clothing.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Can I share my packing list with someone who doesn't have the app?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. When you share a trip, you can add a "web member." They receive a link and can view and check off their assigned items in any browser — no app install required.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Does PackItSmart work offline?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. All your packing lists are stored locally on your device. You can create, edit, and check off items without an internet connection. Changes sync to the cloud when you reconnect.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>What devices does PackItSmart support?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>PackItSmart is available for iPhone (iOS 14.0+) and iPad. An Android version is coming soon.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Can I create a packing list for someone else, like a child?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. Shared trips support "offline members" — perfect for children or anyone without their own device. You assign items to them and check things off on their behalf.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>How is sharing different from other packing apps?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>PackItSmart offers three sharing modes: full app members (with permission controls), web members (browser-only access via link), and offline members (for people without a device). You can assign specific items and tasks to each person.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Can I reuse a packing list for future trips?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. Save any packing list as a template. Duplicate it for your next trip and adjust as needed. Great for recurring business trips or regular vacation types.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Is my data private and secure?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We take data security seriously. We don't sell or share your personal information. You can delete your account and all data at any time. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>How do I get help or report a bug?</span>
+                            <i class="fa-solid fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Email us at <a href="mailto:support@graydev.xyz">support@graydev.xyz</a>. Include your device model, OS version, and app version for the fastest resolution. You can also visit our <a href="support.html">Support page</a>.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -364,18 +580,18 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="section-title">Get Started Today</h2>
+                <h2 class="section-title">Start Packing Smarter</h2>
                 <div class="content" style="text-align: center; padding: 3rem 2rem;">
                     <p style="font-size: 1.25rem; margin-bottom: 2rem;">
-                        Join thousands of travelers who have simplified their packing process with PackItSmart.
+                        Free to download. Weather-smart suggestions from your first trip.
                     </p>
                     <div class="cta-buttons">
                         <a href="https://apps.apple.com/app/pack-it-smart-packing-list/id6751776054"
                             class="btn btn-appstore" target="_blank" rel="noopener noreferrer">
                             <i class="fa-brands fa-apple"></i>
-                            Download on App Store
+                            Download Free on App Store
                         </a>
-                        <a href="support.html" class="btn btn-secondary">Contact Support</a>
+                        <a href="support.html" class="btn btn-secondary">Questions? Contact Support</a>
                     </div>
                 </div>
             </div>
@@ -385,7 +601,7 @@
     <footer>
         <div class="footer-content">
             <div class="copyright">
-                &copy; 2025 PackItSmart. All rights reserved.
+                &copy; 2026 PackItSmart. All rights reserved.
             </div>
             <ul class="footer-links">
                 <li><a href="index.html">Home</a></li>
@@ -439,6 +655,24 @@
             }
         });
 
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const item = button.parentElement;
+                const isOpen = item.classList.contains('active');
+
+                // Close all other items
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                document.querySelectorAll('.faq-question').forEach(b => b.setAttribute('aria-expanded', 'false'));
+
+                // Toggle current item
+                if (!isOpen) {
+                    item.classList.add('active');
+                    button.setAttribute('aria-expanded', 'true');
+                }
+            });
+        });
+
         // Burger menu toggle
         const burgerMenu = document.getElementById('burgerMenu');
         const navLinks = document.getElementById('navLinks');
@@ -481,14 +715,9 @@
 
     <!-- Firebase Analytics -->
     <script type="module">
-        // Import the functions you need from the SDKs you need
         import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
+        import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
 
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         const firebaseConfig = {
             apiKey: "AIzaSyATaZJBcz-MLHpV-Ydxv-uYE_fbjK3Qsrw",
             authDomain: "packitsmart-prod.firebaseapp.com",
@@ -499,9 +728,14 @@
             measurementId: "G-82NT9N6PBY"
         };
 
-        // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
+
+        document.querySelectorAll('.btn-appstore').forEach(btn => {
+            btn.addEventListener('click', () => {
+                logEvent(analytics, 'website_cta_download_ios_tapped');
+            });
+        });
     </script>
 </body>
 
