@@ -19,6 +19,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://packitsmart.app/delete_account.html</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://packitsmart.app/packing-list-app.html</loc>
     <lastmod>2026-02-09</lastmod>
     <changefreq>monthly</changefreq>
